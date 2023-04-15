@@ -6,7 +6,9 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #f6f5f7;
+    background: url('desktop-wallpaper-computer-backgrounds-cinema-391-25-kb-movie-theater.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,6 +33,7 @@ p {
 
 span {
     font-size: 12px;
+    
 }
 
 a {
@@ -41,7 +44,8 @@ a {
 }
 
 .container {
-    background: #fff;
+   
+
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
     position: relative;
@@ -87,8 +91,8 @@ a {
 
 button {
     border-radius: 20px;
-    border: 1px solid #ff4b2b;
-    background: #ff445c;
+    border: 1px solid #555251;
+    background: #444747;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -144,7 +148,7 @@ button.ghost {
 
 .overlay {
     background: #ff416c;
-    background: linear-gradient(to right, #ff4b2b, #ff416c) no-repeat 0 0 / cover;
+    background: linear-gradient(to right, #2a2d2e, #434444) no-repeat 0 0 / cover;
     color: #fff;
     position: relative;
     left: -100%;
